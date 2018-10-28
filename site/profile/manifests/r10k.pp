@@ -1,4 +1,4 @@
-class 'profile::r10k' {
+class profile::r10k {
   class {'r10k':
     remote => 'https://github.com/garycalvin/control-repo',
   }
